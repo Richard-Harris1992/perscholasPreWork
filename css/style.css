@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url('/images/pexels-eberhard-grossgasteiger-844297.jpg');
+    background-image: url('/perscholasPreWork/images/pexels-eberhard-grossgasteiger-844297.jpg');
     background-size:cover;
 }
 main {
@@ -73,7 +73,7 @@ embed { display: none;
 
 button:active + embed { display: block; border: none; }
 button { 
-    background-image: url(/images/IMG_0765.jpg);
+    background-image: url(/perscholasPreWork/images/IMG_0765.jpg);
     position :static;
     background-size: auto;
     height: 600px;
