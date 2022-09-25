@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Space+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(229, 216, 216);
+}
+
+body {
+    background-image: url('/images/pexels-eberhard-grossgasteiger-844297.jpg');
+    background-size:cover;
+}
+main {
+    text-align: center;
+}
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(to bottom right, rgb(6, 6, 6), rgb(44, 43, 43));
+}
+header h2 {
+    
+    display: inline-block;
+    padding: 20px;
+    font-weight: 800;
+}
+h3>span {
+    font-weight: 900;
+    font-size: 30px;
+    padding: 10px;
+}
+h3>span:hover {
+    color:rgb(189, 210, 32);
+    font-size: 50px;
+}
+
+header nav {
+    padding: 20px;
+    float: right;
+}
+header a {
+    font-weight:800;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    text-emphasis: none;
+}
+
+main h3 {
+    font-weight: 900;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+.contentBox {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 50%;
+    background-color: rgba(0,0,0, 0.5);
+    color: #fff;
+    border: 3px solid black;
+    border-radius: 1.5em;
+}
+embed { display: none; 
+    width: 1px;
+    height: 1px; }
+
+button:active + embed { display: block; border: none; }
+button { 
+    background-image: url(/images/IMG_0765.jpg);
+    position :static;
+    background-size: auto;
+    height: 600px;
+    width: 400px;
+    border-radius: 1.5em;
+    
+}
+.contentBox > ul {
+    list-style: none;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.contentBox > p {
+    padding: 30px;
+    line-height: 2;
+}
+li > a {
+    text-emphasis: none;
+}
+footer {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(6, 6, 6), rgb(44, 43, 43));
+    bottom: 0;
+}
+table tr td  {
+    border: 2px solid black;
+    padding: 10px 20px;
+    
+}
+table {
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+th {
+    border: 2px solid black;
+}
+.answer {
+    color: rgba(0,0,0, 0);
+}
+.answer:hover {
+    color: white;
+}
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    margin: 5px;
+}
+.input {
+    background-color: rgb(255, 255, 255, 0.3);
+    border: 2px solid black;
+}
+
+#submit {
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+}
